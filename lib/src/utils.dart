@@ -23,12 +23,12 @@ String localeToString(Locale locale, {String separator = '_'}) {
 
 /// Emit a [info] log event
 void printInfo(String info) {
-  print('\u001b[32mEasy Localization: $info\u001b[0m');
+  //print('\u001b[32mEasy Localization: $info\u001b[0m');
 }
 
 /// Emit a [warning] log event
 void printWarning(String warning) {
-  print('\u001B[34m[WARNING] Easy Localization: $warning\u001b[0m');
+  //print('\u001B[34m[WARNING] Easy Localization: $warning\u001b[0m');
 }
 
 /// Emit a [error] log event
